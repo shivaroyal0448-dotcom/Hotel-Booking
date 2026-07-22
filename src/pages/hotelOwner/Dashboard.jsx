@@ -36,7 +36,7 @@ const Dashboard = () => {
 
             <div className='w-full max-w-3xl text-left border border-gray-300 rounded-lg max-h-80 overflow-y-scroll'>
             <table className='w-full'>
-                <thead>
+                <thead className=''bg-gray-50>
                     <tr>
                         <th className='py-3 px-4 text-gray-800 font-medium'>User Name</th>
                         <th className='py-3 px-4 text-gray-800 font-medium max-sm:hidden'>Room Name</th>
